@@ -1,0 +1,27 @@
+# Publish deliberately reviewed sources and documentation, not private builds.
+*.ko
+*.ko.xz
+*.ko.zst
+*.wmfw
+*.bin
+*.sys
+*.dll
+*.exe
+*.img
+*.iso
+*.run
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+*.log
+.env
+.env.*
+*.pem
+*.key
+initramfs*
+vmlinuz*
+Image
+build/
+dist/
+private/
